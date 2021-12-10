@@ -31,7 +31,7 @@ The below command automates install of this project on the server in question. I
 
 ```bash
 sudo apt update
-sudo apt install firefox
+sudo apt install firefox -y
 ```
 
 * Install GeckoDriver - WebDriver for Firefox
@@ -53,7 +53,7 @@ sudo apt update
 sudo apt install python3.9 -y
 ```
 
-* Download script and mark it as executable
+* Download Python script and mark it as executable
 
 ```bash
 wget https://raw.githubusercontent.com/carceneaux/veeam-vspc-download-mgmt-agent/master/download-vspc-mgmt-agents.py
