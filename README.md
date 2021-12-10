@@ -60,6 +60,16 @@ wget https://raw.githubusercontent.com/carceneaux/veeam-vspc-download-mgmt-agent
 sudo chmod +x download-vspc-mgmt-agents.py
 ```
 
+### Usage
+
+The Python script has built-in usage documentation that can be access by using the below command:
+
+```bash
+./download-vspc-mgmt-agents.py -h
+```
+
+![Built-In Usage screenshot](builtin-usage.png)
+
 ## ✍ Contributions
 
 We welcome contributions from the community! We encourage you to create [issues](https://github.com/carceneaux/veeam-vspc-download-mgmt-agent/issues/new/choose) for Bugs & Feature Requests and submit Pull Requests. For more detailed information, refer to our [Contributing Guide](CONTRIBUTING.md).
