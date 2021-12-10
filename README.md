@@ -22,7 +22,7 @@ This project was tested using an Ubuntu 20.04 headless server (no GUI). While ot
 The below command automates install of this project on the server in question. It was tested on Ubuntu 20.04.
 
 ```bash
-usr/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/carceneaux/veeam-vspc-download-mgmt-agent/master/install.sh)"
+/usr/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/carceneaux/veeam-vspc-download-mgmt-agent/master/install.sh)"
 ```
 
 ### Manual Install
