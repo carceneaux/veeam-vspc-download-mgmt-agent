@@ -13,7 +13,7 @@ Please note we have a [Code of Conduct](#code-of-conduct). Please follow it in a
 
 ## Report Bugs/Feature Requests using the Github Issue Tracker
 
-We use GitHub's Issue Tracker to track bugs/feature Requests. Report a bug or feature request by [opening a new issue](https://github.com/VeeamHub/{repo-name}/issues/new/choose). It's that easy!
+We use GitHub's Issue Tracker to track bugs/feature Requests. Report a bug or feature request by [opening a new issue](https://github.com/carceneaux/veeam-vspc-download-mgmt-agent/issues/new/choose). It's that easy!
 
 ## License
 
@@ -76,7 +76,7 @@ further defined and clarified by project maintainers.
 ### Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at <veeamhub@veeam.com>. All
+reported by contacting the project team at <chris@arsano.ninja>. All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.
