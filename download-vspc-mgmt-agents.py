@@ -28,7 +28,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 def main():
     parser = argparse.ArgumentParser(description='Python script for automating the download of the VSPC management agent install file.')
     parser.add_argument('--vspc', '-v', type=str, required=True,
-                        help='Veeam Service Provider Console FQDN. For example: "vspc.contoso.lab"')
+                        help='Veeam Service Provider Console [FQDN:port]. For example: "vspc.contoso.lab:1280"')
     parser.add_argument('--os', '-o', type=str, required=True,
                         choices=['windows', 'linux', 'macos'],
                         help='Management Agent Operating System')
