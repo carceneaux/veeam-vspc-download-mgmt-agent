@@ -19,7 +19,7 @@ This project was tested using an Ubuntu 20.04 headless server (no GUI). While ot
 
 ### Quick Install
 
-The below command automates install of this project on the server in question. It was tested on Ubuntu 20.04.
+The below command automates the install of this project on the server in question. It was tested on Ubuntu 20.04.
 
 ```bash
 /usr/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/carceneaux/veeam-vspc-download-mgmt-agent/master/install.sh)"
@@ -51,6 +51,12 @@ sudo apt install software-properties-common -y
 sudo add-apt-repository ppa:deadsnakes/ppa -y
 sudo apt update
 sudo apt install python3.9 -y
+```
+
+* Install Python requirements
+
+```bash
+python3.9 -m pip install -U selenium argparse
 ```
 
 * Download Python script and mark it as executable
